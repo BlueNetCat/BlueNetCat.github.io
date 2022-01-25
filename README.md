@@ -1,5 +1,5 @@
 # BlueNetCat - Acció 4 - Apps
-Website for development and demonstrations of web apps for the BlueNetCat. The goal of action 4 is to capitalize the data collected by the researchers of the network. To see the status of the action, please [follow this link](https://github.com/BlueNetCat/convocatoria). The github repository can be found here: [github repository](https://github.com/BlueNetCat)
+Website for development and demonstrations of web apps for the BlueNetCat. The goal of action 4 is to capitalize the data collected by the researchers of the network. To see the status of the action, please [follow this link](https://github.com/BlueNetCat/info). The github repository can be found here: [github repository](https://github.com/BlueNetCat)
 
 <a href="https://bluenetcat.github.io/network">
 <img align="left" width="90" height="90" src="img/network.png">
