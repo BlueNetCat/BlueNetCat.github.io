@@ -1,5 +1,5 @@
 # VISAP
-A [temporary dashboard](https://bluenetcataccio4.github.io/VISAP/) has been created to show the visualizations.
+A [temporary dashboard](https://bluenetcat.github.io/VISAP/) has been created to show the visualizations.
 ## Information to visualize
 ### Pesca d'arrossegament (Trawling)
 - Catches (captures): a zoomable pie chart, which would integrate several pie charts from the report into one. The pie chart could be divided by area/harbour (Roses, l'Escala, Palamós...) or by seasons (Autumn, Winter, Spring...)
