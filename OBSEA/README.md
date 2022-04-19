@@ -31,7 +31,7 @@ Wind direction                       | deg        |  Climatological / Instantane
 Sound pressure level (hydrophone)     | dB        |  ?
 
 ### Data availability graph
-Show a graph with the data available for specific dates.
+Show a graph with the data available for specific dates. The main problem with observatories is that data is not continuous. Devices may fail and would be replaced in a few days / months, thus not collecting data for some time.
 
 ### Prototpyes
 #### Clima knowledge
