@@ -12,8 +12,8 @@ Air pressure                          | hPa       |  ?                          
 Relative humidity                     | %         |  Climatological                   | ?
 Thickness of rainfall                 | mm        |  Instantaneous                    | Bar graph daily
 . |
-Sea water temperature                | Celsius    | Climatological                    | Graph with mean prev year
-Salinity                             | ‰          | Climatological                    | Graph with mean prev year
+Sea water temperature                | Celsius    | Climatological / Instantaneous    | Graph with mean prev year
+Salinity                             | ‰          | Climatological / Instantaneous    | Graph with mean prev year
 Sea water pressure                   |  dbar      | ? 
 Sea water electrical conductivity     | S/m        | ?
 Speed of sound (sea water)            | m/s        |  ?
@@ -30,8 +30,18 @@ Wind                                  | m/s        | Instantaneous              
 Wind direction                       | deg        |  Climatological / Instantaneous   | Circular bar graph month/year
 Sound pressure level (hydrophone)     | dB        |  ?
 
-## Data availability graph
+### Data availability graph
 Show a graph with the data available for specific dates.
+
+### Prototpyes
+#### Clima knowledge
+Compare current data to the monthly mean / monthly year. These averages could be done offline.
+#### Circular bar graphs
+Show the direction and the intensity with a circular graph. Intensity and direction are divided in bins (e.g., every 0.5m for waves, every 20deg for direction). Each intensity bin has a frequency of occurance (%) for a specific direction bin. Yearly and monthly could be done offline.
+#### Event-based
+Mark some events, like storms or heavy rainfall. Should show weekly data.
+#### OBSEA Widget
+Current data of the station showing the last week.
 
 ## Backend
 Enoc has been testing different tecnologies to speed up and organize the database and backend. The data can be served and visualized now from SensorThings API, PostgreSQL, ERDDAP, CKAN and Grafana. He wrote scripts that resample the datastreams with a lower temporal resolution (e.g., a sample every 15min) in order to reduce the size, transmission and handling of the data files.
