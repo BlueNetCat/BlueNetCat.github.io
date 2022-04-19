@@ -1,6 +1,38 @@
 # OBSEA Data
 The underwater observatory collects data in real-time. It has been collecting data since around 2000. Currently their dashboard only shows data from the last 48h. The objective is to visualize and download historical data. The old database was not indexed and some of the streams had samples every 15 seconds. When asking data for a long period of time, the query took too long and the data had too much resolution.
 
+## Collected data
+In this section we will describe the data collected and some of the properties. Temporal relevance: instantaneous (interesting information is in the moment) or climatological (interesting information is in relationship to the mean)
+
+
+| Observation                        | Unit       | Temporal relevance                | Visualization              | Interactions         | Stakeholders |
+| ---------------------------------- | ---------- | --------------------------------- | ------------------------- | --------------------- |------------- |
+Air temperature                      | Celsius    | Climatological                    | Graph with mean prev year |
+Air pressure                          | hPa       |  ?                                | ?
+Relative humidity                     | %         |  Climatological                   | ?
+Thickness of rainfall                 | mm        |  Instantaneous                    | Bar graph daily
+. |
+Sea water temperature                | Celsius    | Climatological                    | Graph with mean prev year
+Salinity                             | ‰          | Climatological                    | Graph with mean prev year
+Sea water pressure                   |  dbar      | ? 
+Sea water electrical conductivity     | S/m        | ?
+Speed of sound (sea water)            | m/s        |  ?
+Sea water pH                          | pH        |  Climatological                   | Graph with mean prev year
+. |
+Current                               | m/s        |  Climatological / Instantaneous  | ?
+Current direction                     | deg        | Climatological / Instantaneous   | Circular bar graph month/year
+Current 3D                            | m/s        |  Instantaneous                   | 3D graph arrows at each meter depth
+Wave significant height               | m         |  Instantaneous                    | Bar graph hourly
+Wave peak height (1/3 or 1/10)        | m         |  Instantaneous                    | Bar graph hourly
+Wave direction                       | deg         | Climatological                   | Circular bar graph month/year
+Wave period                           | s           | Instantaneous                   | Bar graph hourly
+Wind                                  | m/s        | Instantaneous                    | Bar graph hourly
+Wind direction                       | deg        |  Climatological / Instantaneous   | Circular bar graph month/year
+Sound pressure level (hydrophone)     | dB        |  ?
+
+## Data availability graph
+Show a graph with the data available for specific dates.
+
 ## Backend
 Enoc has been testing different tecnologies to speed up and organize the database and backend. The data can be served and visualized now from SensorThings API, PostgreSQL, ERDDAP, CKAN and Grafana. He wrote scripts that resample the datastreams with a lower temporal resolution (e.g., a sample every 15min) in order to reduce the size, transmission and handling of the data files.
 
