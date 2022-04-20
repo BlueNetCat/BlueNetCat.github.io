@@ -14,9 +14,9 @@ Thickness of rainfall                 | mm        |  Instantaneous              
 . |
 Sea water temperature                | Celsius    | Climatological / Instantaneous    | Graph with mean prev year
 Salinity                             | ‰          | Climatological / Instantaneous    | Graph with mean prev year
-Sea water pressure                   |  dbar      | ? 
-Sea water electrical conductivity     | S/m        | ?
-Speed of sound (sea water)            | m/s        |  ?
+Sea water pressure                   |  dbar      | ?                                 | Shows depth and storm events (std of water press)
+Sea water electrical conductivity    | S/m        | ?                                 | To calculate salinity
+Speed of sound (sea water)            | m/s       |  ?                                | To calculate salinity
 Sea water pH                          | pH        |  Climatological                   | Graph with mean prev year
 . |
 Current                               | m/s        |  Climatological / Instantaneous  | ?
