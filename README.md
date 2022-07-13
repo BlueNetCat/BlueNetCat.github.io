@@ -38,11 +38,11 @@ MARCAT. Application to visualize oceanographic prediction and forecasting models
 ## [VISAP2](https://bluenetcat.github.io/VISAP2/)
 VISAP (Servei d'Assessorament Pesquer). Continuation of the first version, with the addition of climatological data and fishing effort maps. [VISAP2 repository](https://github.com/BlueNetCat/VISAP2)
 
-<a href="https://bluenetcat.github.io/OBSEA/OBSEABase">
+<a href="https://bluenetcat.github.io/OBSEA/">
 <img align="left" width="90" height="90" src="img/OBSEABase.png" >
 </a>
 
-## [OBSEA](https://bluenetcat.github.io/OBSEA/OBSEABase)
+## [OBSEA](https://bluenetcat.github.io/OBSEA/)
 3D representation of an underwater observatory with real data of the sea. In development. [OBSEA Repository](https://github.com/BlueNetCat/OBSEA)
 
 ## Experimental
